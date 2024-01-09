@@ -7,9 +7,9 @@ dataSources:
   - kind: ethereum
     network: sepolia
     event:
-      - address: '0xa60ecf32309539dd84f27a9563754dca818b815e'
+      - address: '0x4873528341d33ec918c7465f244491acb75bc95f'
         events: 
-          - "Sync(uint112,uint112)"
+          - "Transfer(address,address,uint256)"
 
 mapping:
   language: wasm/assemblyscript
