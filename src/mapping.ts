@@ -9,7 +9,7 @@ let esig_sync = Bytes.fromHexString(
 
 export function handleBlocks(blocks: Block[]): Bytes {
   // init output state
-  let state: Bytes = Bytes.fromHexString('0x');
+  let state: Bytes = Bytes.fromHexString("0x");
 
   // #1 can access all (matched) events of the latest block
   let events: Event[] = blocks[0].events;
@@ -32,12 +32,17 @@ export function handleBlocks(blocks: Block[]): Bytes {
     events[0].data == eventsByAcctEsig[0].data);
 
   for (let i = events.length - 1; i >= 0; i--) {
-    if (events[i].address.equals(addr) && events[i].esig.equals(esig_sync) && events[i].topic1.equals(
-      Bytes.fromHexString("0x0000000000000000000000000000000000000000"))) {
-       {
-        state = events[i].topic2;
-        break;
-      }
+    if (
+      events[i].address.equals(addr) &&
+      events[i].esig.equals(esig_sync) &&
+      events[i].topic1.equals(
+        Bytes.fromHexString(
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        )
+      )
+    ) {
+      state = events[i].topic2;
+      break;
     }
   }
   return state;
