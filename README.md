@@ -1,10 +1,10 @@
 # Proof of Approved - zkgraph
 
-### This zkgraph tracks all the approved address for USDT on sepolia
+### This zkgraph tracks all the address that has minted USDT token on sepolia
 
 #### USDT address on Sepolia Testnet: 0x7169D38820dfd117C3FA1f22a697dBA58d90BA06
 
-#### Event being read on Sepolia USDT: Approval(address,address,uint256)
+#### Event being read on Sepolia USDT: Transfer(address,address,uint256)
 
 
 ## Usage CLI
