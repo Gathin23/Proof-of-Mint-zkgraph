@@ -1,4 +1,4 @@
-# Proof of Approved - zkgraph
+# Proof of Mint - zkgraph
 
 ### This zkgraph tracks all the address that has minted USDT token on sepolia
 
