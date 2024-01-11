@@ -7,7 +7,7 @@ dataSources:
   - kind: ethereum
     network: sepolia
     event:
-      - address: '0x4873528341d33ec918c7465f244491acb75bc95f'
+      - address: '0x7169D38820dfd117C3FA1f22a697dBA58d90BA06'
         events: 
           - "Transfer(address,address,uint256)"
 

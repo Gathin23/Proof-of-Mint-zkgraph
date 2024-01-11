@@ -2,7 +2,7 @@
 import { require } from "@hyperoracle/zkgraph-lib";
 import { Bytes, Block, Event, Address } from "@hyperoracle/zkgraph-lib";
 
-let addr = Bytes.fromHexString("0x4873528341d33ec918c7465f244491acb75bc95f");
+let addr = Bytes.fromHexString("0x7169D38820dfd117C3FA1f22a697dBA58d90BA06");
 let esig_sync = Bytes.fromHexString(
   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
 );
