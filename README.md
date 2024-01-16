@@ -1,8 +1,8 @@
 # Proof of Mint - zkgraph
 
-### This zkgraph tracks all the address that has minted USDT token on sepolia
+### This zkgraph tracks all the address that has minted DOP token on sepolia
 
-#### USDT address on Sepolia Testnet: 0x7169D38820dfd117C3FA1f22a697dBA58d90BA06
+#### DOP token address on Sepolia Testnet: 0x4873528341d33ec918c7465f244491acb75bc95f
 
 #### Event being read on Sepolia USDT: Transfer(address,address,uint256)
 
